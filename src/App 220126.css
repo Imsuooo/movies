@@ -1,0 +1,4 @@
+*{margin: 0; padding: 0;}
+.btn{padding: 10px; background: rgb(120, 243, 27); border: none; outline: 0; width: 300px;  display:block; margin: 20px auto; font-size: 1.3rem;}
+span{text-align: center; display: block; font-size: 3rem;}
+input{display: block; padding:10px; margin: 10px auto;  width: 280px; border: 3px solid rgb(120, 243, 27); background: rgb(247, 255, 240);}
