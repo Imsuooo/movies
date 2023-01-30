@@ -25,6 +25,7 @@
       "react-app/jest"
     ]
   },
+  "homepage": "https://yeonim1104.github.io/app_react",
   "browserslist": {
     "production": [
       ">0.2%",
