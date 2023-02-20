@@ -11,17 +11,24 @@ button{width: 100%; padding: 15px; background: #eee; border: none; font-size: 15
 .error{font-size: 14px; color: rgb(101, 101, 101);margin-bottom: 5px;}
 
 
-.navbar{display: flex; justify-content: space-between; border-bottom: 1px solid #222; margin-bottom: 30px; margin-top: 20px; padding: 0 20px; align-items: center;}
+.navbar{display: flex; justify-content: space-between; border-bottom: 1px solid #222; margin-top: 20px; padding: 0 20px; align-items: center;}
 .logo{margin-bottom: 20px;}
 .logo>a{color: #555; text-decoration: none;}
 .navbar-nav{list-style: none; display: flex; margin-bottom: 20px;}
 li{margin: 0 20px; font-weight: bold;}
 li>a{color: #777; text-decoration: none;}
 
-.bg{width: 100%; height: 500px; background-image: linear-gradient(to top, rgb(228, 228, 224), #fff); display: flex; justify-content: center; align-items: center; font-size: 3rem; color: #ddd;}
-#main{}
-#section1{width: 100%; height: 300px; background: #eee; margin-bottom: 5px;}
-#section2{width: 100%; height: 200px; background: #ddd;}
+.bg{width: 100%; height: 60vh; background-image: linear-gradient(to top, rgb(15, 15, 15), #ededed); display: flex; justify-content: center; align-items: center;}
+.title{font-size: 3rem; color: #61fd29; font-weight: bold;}
+.img-area{width: 70px; height: 70px; background: url(./component/video.gif) no-repeat center center /contain; margin-left: 20px;}
+.img-area2{ margin-left: 0;  margin-right: 20px;}
+
+#section1{width: 100%; height: 300px; background: #111; }
+.section1container{display: flex; flex-direction: column; align-items: center; justify-content: center;}
+.text{color: #f4f4f4; font-size: 1.5rem; font-weight: 200; margin-bottom: 10px;}
+.icon{font-size: 2rem;}
+.movies{display: block; cursor: pointer; text-decoration: none; padding: 10px; background: #61fd29; margin-top: 20px; width: 120px; text-align: center; color: #222; border-radius: 100%;}
+.movies:hover{background: #b6ff56;}
 .container{width: 1200px; height: inherit; /* background: rgba(250, 206, 206, 0.6);  */margin: 0 auto;}
 
 .userh1{text-align: center; margin-bottom: 20px;}
